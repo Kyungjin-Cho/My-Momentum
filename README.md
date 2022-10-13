@@ -13,6 +13,9 @@
 <img src="https://user-images.githubusercontent.com/56642855/195656677-56157070-b88d-4f90-b131-4ec52d594ca5.JPG", height="400px", width="450px">
 </p>
 
+## Live Demo
+> Github Page (https://kyungjin-cho.github.io/My-Momentum/)
+
 ## Features
 * [x] Clock
 * [x] Weather with Geolocation(Weather API)
@@ -21,6 +24,7 @@
 * [x] Random Image & Quote (Polaroid Theme)
 * [x] Responsive web
 
-## Live Demo
-> Github Page (https://kyungjin-cho.github.io/My-Momentum/)
+## Resources
+- Font : https://www.woowahan.com/fonts
+- Pictures : https://pixabay.com/ , https://unsplash.com/
 
