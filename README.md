@@ -25,7 +25,9 @@
 * [x] Responsive web
 
 ## Resources
-- Font : https://www.woowahan.com/fonts
 - Logo : https://www.flaticon.com/
+- Font : https://www.woowahan.com/fonts
+- Weather API : https://openweathermap.org/api
 - Pictures : https://pixabay.com/ , https://unsplash.com/
+
 
