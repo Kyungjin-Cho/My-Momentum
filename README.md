@@ -26,5 +26,6 @@
 
 ## Resources
 - Font : https://www.woowahan.com/fonts
+- Logo : https://www.flaticon.com/
 - Pictures : https://pixabay.com/ , https://unsplash.com/
 
