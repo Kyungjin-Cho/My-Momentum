@@ -21,6 +21,7 @@
 * [x] Weather with Geolocation(Weather API)
 * [x] Username Persistance
 * [x] To-Do List
+* [x] Search Box
 * [x] Random Image & Quote (Polaroid Theme)
 * [x] Responsive web
 
