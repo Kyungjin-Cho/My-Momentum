@@ -1,5 +1,5 @@
 function nightHandler() {
-  document.querySelector('body').style.backgroundImage = "url('./bgImg/night.jpg')";
+  document.querySelector('body').style.backgroundImage = "url('night.jpg')";
   document.querySelector('body').style.backgroundRepeat = "no-repeat";
   document.querySelector('body').style.backgroundSize = "cover";
   document.querySelector('body').style.backgroundPosition = "100% 100%";
@@ -10,7 +10,7 @@ function nightHandler() {
 }
 
 function dayHandler() {
-  document.querySelector('body').style.backgroundImage = "url('./bgImg/flower.png')";
+  document.querySelector('body').style.backgroundImage = "url('flower.png')";
   document.querySelector('body').style.backgroundRepeat = "no-repeat";
   document.querySelector('body').style.backgroundSize = "cover";
   document.querySelector('body').style.backgroundPosition = "100% 100%";
