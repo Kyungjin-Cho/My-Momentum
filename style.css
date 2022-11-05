@@ -51,6 +51,59 @@ body {
   text-align: center;
 }
 
+.left #night_day {
+  text-align: center;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+#night_day #night {
+  box-shadow: 0px 5px 10px black;
+  background-color: transparent;
+  width: 80px;
+  color: slategray;
+  font-weight: bolder;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+#night_day #day {
+  box-shadow: 0px 5px 10px black;
+  background-color: transparent;
+  width: 80px;
+  color: slategray;
+  font-weight: bolder;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+#night_day #night:hover {
+  box-shadow: 0 12px 23px black, 0 5px 10px black;
+  text-transform: uppercase;
+  background: linear-gradient(0.25turn, #FF9F9F, #BCEAD5);
+}
+
+#night_day #day:hover {
+  box-shadow: 0 12px 23px black, 0 5px 10px black;
+  text-transform: uppercase;
+  background: linear-gradient(0.25turn, #FF9F9F, #BCEAD5);
+}
+
+#night_day #day:active {
+  box-shadow: none;
+}
+
+#night_day #day:active {
+  box-shadow: none;
+}
+
+
 #clock {
   font-size: 120px;
   color: rgb(040, 075, 029);
