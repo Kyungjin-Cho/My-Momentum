@@ -8,16 +8,18 @@ const w3schoolSearch = document.querySelector('.w3schoolSearch');
 const w3schoolForm = document.querySelector('#w3schoolForm');
 
 
-function handleGoogleSearch() {
+function handleGoogleSearch(event) {
+  event.preventDefault();
   const Keyword = googleSearch.value;
   googleSearch.value = "";
   window.open(
     `https://www.google.com/search?q=${Keyword}`,
-    replace=false
+    replace = false
   );
 }
 
-function handleGithubSearch() {
+function handleGithubSearch(event) {
+  event.preventDefault();
   const Keyword = githubSearch.value;
   githubSearch.value = "";
   window.open(
@@ -25,7 +27,8 @@ function handleGithubSearch() {
   );
 }
 
-function handleStackoverflowSearch() {
+function handleStackoverflowSearch(event) {
+  event.preventDefault();
   const Keyword = stackoverflowSearch.value;
   stackoverflowSearch.value = "";
   window.open(
@@ -33,12 +36,13 @@ function handleStackoverflowSearch() {
   );
 }
 
-function handleW3schoolSearch(){
+function handleW3schoolSearch(event) {
+  event.preventDefault();
   const Keyword = w3schoolSearch.value;
   w3schoolSearch.value = "";
   window.open(
     `https://www.google.com/search?q=${Keyword}%20site%3Aw3schools.com`
-  ); 
+  );
 }
 
 googleForm.addEventListener('submit',handleGoogleSearch);
