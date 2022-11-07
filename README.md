@@ -3,7 +3,7 @@
 > This repository will be used for the 'My Momentum(Independent Project)'
 
 ## Full Design
-> Version 1 - Development Period : A Week ('22.10.07 ~ '22.10.13)
+> Version 1 - Development Period : A Week('22.10.07 ~ '22.10.13)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/56642855/195657427-72821a99-634a-4460-a6a7-38d280074162.JPG", height="400px", width="450px">
