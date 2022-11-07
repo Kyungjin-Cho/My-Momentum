@@ -14,6 +14,9 @@
 </p>
 
 > Version 2 (* Add Night & Day Mode)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/56642855/200405187-eb9310c8-2635-47c8-9b1e-dbb585ad6f8a.JPG", height="400px", width="450px">
+</p>
 
 ## Live Demo
 > Github Page (https://kyungjin-cho.github.io/My-Momentum/)
