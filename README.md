@@ -15,7 +15,7 @@
 
 > Version 2 (* Add Night & Day Mode)
 <p align="center">
-<img src="https://user-images.githubusercontent.com/56642855/200405187-eb9310c8-2635-47c8-9b1e-dbb585ad6f8a.JPG", height="400px", width="450px">
+<img src="https://user-images.githubusercontent.com/56642855/200405563-589c402b-4fad-4f77-a1de-8a2b38aac3ea.JPG", height="400px", width="450px">
 </p>
 
 ## Live Demo
