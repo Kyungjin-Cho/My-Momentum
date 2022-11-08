@@ -13,7 +13,7 @@
 <img src="https://user-images.githubusercontent.com/56642855/195656677-56157070-b88d-4f90-b131-4ec52d594ca5.JPG", height="400px", width="450px">
 </p>
 
-> Version 2 - Add Night & Day Mode('22.11.06)
+> Version 2 - Add Night & Day Mode(Development: '22.11.06)
 <p align="center">
 <img src="https://user-images.githubusercontent.com/56642855/200405563-589c402b-4fad-4f77-a1de-8a2b38aac3ea.JPG", height="400px", width="450px">
 </p>
