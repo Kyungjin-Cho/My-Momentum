@@ -1,99 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="style.css"/>
-    <title>Jinnie's Momentum</title>
-  </head>
-  <body>
-    <div class = "whole">
-      <section class="left">
-        <div id="night_day">
-          <input type="button" id="night" value="night🌚" onclick="nightHandler()">
-          <input type="button" id="day" value="day🌞" onclick="dayHandler()">
-        </div>
-        
-        <div id="clock">
-          <h1>00:00:00</h1>
-        </div>
 
-        <form class="login-form form">
-          <input type="text" placeholder="What is your name?" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Jinnie's Momentum</title>
+</head>
+
+<body>
+  <div class="whole">
+    <section class="left">
+      <div id="night_day">
+        <input type="button" id="night" value="night🌚" onclick="nightHandler()">
+        <input type="button" id="day" value="day🌞" onclick="dayHandler()">
+      </div>
+
+      <div id="clock">
+        <h1>00:00:00</h1>
+      </div>
+
+      <form class="login-form form">
+        <input type="text" placeholder="What is your name?" />
+      </form>
+
+      <h2 class="greetings greetings"></h2>
+
+      <div id="photo">
+        <table>
+          <tr>
+            <td>
+              <div id="imgupload"></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div id="quote">
+                <span></span>
+                </br></br>
+                <span></span>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="quote">
+        <span></span>
+        </br>
+        <span></span>
+      </div>
+    </section>
+
+    <section class="right">
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="list">
+        <form id="todo-form">
+          <label for="writeList">To-do List for Today</label>
+          <input type="text" placeholder="Write a To Do and Press Enter." required id="todo-form-input" />
         </form>
 
-        <h2 class="greetings greetings"></h2>
+        <ul id="todo-list"></ul>
+      </div>
 
-        <div id="photo">
-          <table>
-            <tr>
-              <td><div id="imgupload"></div></td>
-            </tr>
-            <tr>
-              <td>
-                <div id="quote">
-                  <span></span>
-                  </br></br>
-                  <span></span>
-                </div>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div id="quote">
-          <span></span>
-          </br>
-          <span></span>
-        </div>
-      </section>
-      
-      <section class="right">
-        <div id="weather">
-          <span></span>
-          <span></span>
-        </div>
+      <div class="search">
+        <label for="searchList">Search Box for Programming</label>
+        <form id="googleForm">
+          <a href="https://www.google.com" target="_blank"><img src="logo/google.png" alt="google" /></a>
+          <input class='googleSearch' type="search" placeholder="Google Search" />
+        </form>
+        <form id="stackoverflowForm">
+          <a href="https://www.stackoverflow.com" target="_blank"><img src="logo/stackoverflow.png"
+              alt="stackoverflow" /></a>
+          <input class="stackoverflowSearch" type="search" placeholder="Stackoverflow Search" />
+        </form>
+        <form id="githubForm">
+          <a href="https://www.github.com/" target="_blank"><img src="logo/github.png" alt="github" /></a>
+          <input class="githubSearch" type="search" placeholder="GitHub Search" />
+        </form>
+        <form id="w3schoolForm">
+          <a href="https://www.w3schools.com/" target="_blank"><img src="logo/w3school.png" alt="w3school" /></a>
+          <input class="w3schoolSearch" type="search" placeholder="W3School Search" />
+        </form>
 
-        <div class="list">
-          <form id="todo-form">
-            <label for="writeList">To-do List for Today</label>
-            <input type="text" placeholder="Write a To Do and Press Enter." required id="todo-form-input"/>
-          </form>
-    
-          <ul id="todo-list"></ul>
-        </div>
+      </div>
 
-        <div class="search">
-          <label for="searchList">Search Box for Programming</label>
-          <form id="googleForm">
-            <a href="https://www.google.com" target="_blank"><img src="google.png" alt="google"/></a>
-            <input class='googleSearch' type="search" placeholder="Google Search"/>
-          </form>
-          <form id="stackoverflowForm">
-            <a href="https://www.stackoverflow.com" target="_blank"><img src="stackoverflow.png" alt="stackoverflow"/></a>
-            <input class="stackoverflowSearch" type="search" placeholder="Stackoverflow Search"/>
-          </form>
-          <form id="githubForm">
-            <a href="https://www.github.com/" target="_blank"><img src="github.png" alt="github"/></a>
-            <input class="githubSearch" type="search" placeholder="GitHub Search"/>
-          </form>
-          <form id="w3schoolForm">
-            <a href="https://www.w3schools.com/" target="_blank"><img src="w3school.png" alt="w3school"/></a>
-            <input class="w3schoolSearch" type="search" placeholder="W3School Search"/>
-          </form>
+    </section>
+  </div>
 
-        </div>
-        
-      </section>
-    </div>    
-    
-    <script src="greeting.js"></script>
-    <script src="clock.js"></script>
-    <script src="quotes.js"></script>
-    <script src="background.js"></script>
-    <script src="todo.js"></script>
-    <script src="weather.js"></script>
-    <script src="search.js"></script>
-    <script src="night.js"></script>
-  </body>
+  <script src="greeting.js"></script>
+  <script src="clock.js"></script>
+  <script src="quotes.js"></script>
+  <script src="background.js"></script>
+  <script src="todo.js"></script>
+  <script src="weather.js"></script>
+  <script src="search.js"></script>
+  <script src="night.js"></script>
+</body>
+
 </html>
